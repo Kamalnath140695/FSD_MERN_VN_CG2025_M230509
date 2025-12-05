@@ -1,0 +1,41 @@
+.department-page {
+  min-height: 100vh;
+}
+
+.dept-hero {
+  background: linear-gradient(135deg, #8e44ad 0%, #3498db 100%);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.dept-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.dept-hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.departments-section {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+}
+
+.departments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .dept-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .departments-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science Engineering",
+    "description": "The CSE department focuses on software development, algorithms, and modern computing technologies.",
+    "courses": ["Data Structures & Algorithms", "Operating Systems", "Database Management Systems", "Computer Networks", "Software Engineering"],
+    "faculty": ["Dr. Kumar Sharma", "Dr. Meena Patel", "Prof. Rajesh Singh"],
+    "labs": ["Programming Lab", "Networks Lab", "Database Lab", "Software Engineering Lab"]
+  },
+  {
+    "id": "it",
+    "name": "Information Technology",
+    "description": "IT department specializes in information systems, web technologies, and digital solutions.",
+    "courses": ["Web Development", "Information Security", "Cloud Computing", "Mobile App Development", "System Administration"],
+    "faculty": ["Dr. Priya Gupta", "Prof. Amit Verma", "Dr. Sunita Rao"],
+    "labs": ["Web Development Lab", "Security Lab", "Cloud Computing Lab", "Mobile Development Lab"]
+  },
+  {
+    "id": "ece",
+    "name": "Electronics & Communication Engineering",
+    "description": "ECE focuses on electronic systems, communication technologies, and signal processing.",
+    "courses": ["Digital Electronics", "Communication Systems", "Signal Processing", "VLSI Design", "Embedded Systems"],
+    "faculty": ["Dr. Ravi Kumar", "Prof. Anjali Sharma", "Dr. Vikash Jain"],
+    "labs": ["Electronics Lab", "Communication Lab", "VLSI Lab", "Embedded Systems Lab"]
+  },
+  {
+    "id": "mechanical",
+    "name": "Mechanical Engineering",
+    "description": "Mechanical engineering covers design, manufacturing, and mechanical systems development.",
+    "courses": ["Thermodynamics", "Machine Design", "Manufacturing Processes", "Fluid Mechanics", "CAD/CAM"],
+    "faculty": ["Dr. Suresh Reddy", "Prof. Kavita Singh", "Dr. Manoj Tiwari"],
+    "labs": ["Manufacturing Lab", "Thermal Lab", "Design Lab", "Materials Testing Lab"]
+  },
+  {
+    "id": "civil",
+    "name": "Civil Engineering",
+    "description": "Civil engineering focuses on infrastructure development, construction, and environmental systems.",
+    "courses": ["Structural Engineering", "Transportation Engineering", "Environmental Engineering", "Geotechnical Engineering", "Construction Management"],
+    "faculty": ["Dr. Ramesh Chandra", "Prof. Neha Agarwal", "Dr. Sanjay Mishra"],
+    "labs": ["Structural Lab", "Materials Lab", "Environmental Lab", "Survey Lab"]
+  },
+  {
+    "id": "mba",
+    "name": "Master of Business Administration",
+    "description": "MBA program develops business leadership, management skills, and strategic thinking.",
+    "courses": ["Strategic Management", "Financial Management", "Marketing Management", "Human Resource Management", "Operations Management"],
+    "faculty": ["Dr. Ashok Gupta", "Prof. Rekha Sharma", "Dr. Deepak Agarwal"],
+    "labs": ["Business Simulation Lab", "Finance Lab", "Marketing Research Lab", "HR Analytics Lab"]
+  }
+]
