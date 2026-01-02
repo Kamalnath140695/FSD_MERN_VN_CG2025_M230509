@@ -1,0 +1,136 @@
+.user-navbar {
+  background-color: #8B4513;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.user-navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.user-navbar .nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.user-navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.user-navbar .nav-links a:hover {
+  text-decoration: underline;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.book-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.book-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.book-card .book-info {
+  padding: 1.5rem;
+}
+
+.book-card .book-info h3 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.book-card .book-info p {
+  margin: 0.25rem 0;
+  color: #666;
+}
+
+.book-card .book-price {
+  margin: 0.5rem 0 1rem 0;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.book-card .book-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-wishlist {
+  background-color: #8B4513;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-view {
+  background-color: #666;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-item {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.order-item img {
+  width: 60px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.order-status-ontheway {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #F5F5DC;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.contact-btn {
+  background-color: #8B4513;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arimo", sans-serif;
+}
+
+body {
+  background-color: rgb(253, 246, 227);
+  min-height: 100vh;
+}
+
+/* Login/Signup Styles */
+.signup-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.signup-container {
+  background-color: rgb(255, 250, 240);
+  width: 500px;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signup-container h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(75, 63, 47);
+  margin-bottom: 30px;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: rgb(75, 63, 47);
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  color: #555;
+}
+
+.form-group input::placeholder {
+  color: #aaa;
+}
+
+.btn-signup {
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin-right: auto;
+}
+
+.btn-signup:hover {
+  background-color: #6d360f;
+}
+
+.login-link {
+  font-size: 14px;
+  color: rgb(75, 63, 47);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-link a {
+  color: #d35400;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Admin Layout Styles */
+.admin-layout {
+  min-height: 100vh;
+  background-color: rgb(253, 246, 227);
+}
+
+.admin-navbar {
+  background-color: #8b4513;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  text-decoration: underline;
+}
+
+.nav-links button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.user-name {
+  font-size: 16px;
+}
+
+.dashboard-content {
+  padding: 40px;
+}
+
+.dashboard-content h1 {
+  font-size: 36px;
+  color: rgb(75, 63, 47);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.stat-card {
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.stat-card.users {
+  background-color: #8b4513;
+}
+
+.stat-card.vendors {
+  background-color: #6b8e23;
+}
+
+.stat-card.items {
+  background-color: #8b4513;
+}
+
+.stat-card.orders {
+  background-color: #d2b48c;
+  color: #333;
+}
+
+.stat-card h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* Chart */
+.chart-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.chart {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 40px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.bar {
+  width: 60px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.chart-legend {
+  text-align: center;
+  color: #8b4513;
+  font-weight: bold;
+}
+
+/* Users Table */
+.users-table-container {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th {
+  background-color: #d2b48c;
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+}
+
+.users-table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.users-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.operations {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.edit-btn, .delete-btn, .save-btn, .cancel-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.save-btn {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.cancel-btn {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.save-btn:hover {
+  background-color: #e8f5e8;
+  border-radius: 3px;
+}
+
+.cancel-btn:hover {
+  background-color: #fdeaea;
+  border-radius: 3px;
+}
+
+.view-orders-btn {
+  background-color: #d2b48c;
+  color: #333;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.view-orders-btn:hover {
+  background-color: #c19a6b;
+}
